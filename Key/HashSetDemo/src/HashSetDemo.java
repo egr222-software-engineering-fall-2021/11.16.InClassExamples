@@ -5,9 +5,10 @@ public class HashSetDemo {
 //        Set<String> names = new HashSet<String>();    // arbitrary order (based on hash function)
 //        Set<String> names = new TreeSet<String>();    // "natural" order - for strings alpha order, upper case then lower case
         Set<String> names = new LinkedHashSet<String>();    // order items were added to the collection
-        names.add("Marisa");
+        names.add("Jake");
         names.add("Robert");
-        names.add("jake");
+        names.add("john");
+        names.add("Marisa");
         names.add("Kasey");
 
         System.out.println(names);
